@@ -37,6 +37,5 @@
   * Adresse Mac
   * Type (dynamique ou statique)
   * Ports
-  * 
 * Les entrées statiques persisteront lors d'un redémarrage. Les entrées dynamiques ne le seront pas.
 
