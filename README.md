@@ -59,6 +59,8 @@
 * Si l'adresse MAC de la couche 2 est inconnue, la trame est inondée vers tous les ports sauf celui d'où elle provient
 
 # Tableau des adresses MAC
+<img src="https://user-images.githubusercontent.com/83721477/164194822-ce5078d2-79e2-4d06-aeb6-26448e1eaaf9.png" width="50%" height="50%">
+
 * Une table d'adresses MAC est composée des colonnes suivantes :
   * VLAN
   * Adresse Mac
