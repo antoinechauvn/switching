@@ -39,7 +39,7 @@
 * Les commutateurs LAN sont caractérisés par la méthode de transfert qu'ils prennent en charge, telle qu'un commutateur a store-and-forward, un cut-through ou un commutateur fragment-free.
 
 ## Commutation store-and-forward
-* Les commutateurs de store-and-forward stockent la totalité de la trame dans la mémoire interne et vérifient la présence d'erreurs dans la trame avant de la transmettre à sa destination.
+* Les commutateurs store-and-forward stockent la totalité de la trame dans la mémoire interne et vérifient la présence d'erreurs dans la trame avant de la transmettre à sa destination.
 * Le fonctionnement du commutateur store-and-forward garantit un niveau élevé de trafic réseau sans erreur, car les trames de données erronées sont rejetées plutôt que transmises sur le réseau
 
 ## Commutation cut-through
