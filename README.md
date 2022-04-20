@@ -65,6 +65,7 @@
   * VLAN
   * Adresse Mac
   * Type (dynamique ou statique)
-  * Ports <br>
+  * Ports
+
 *Note: Les entrées statiques persisteront lors d'un redémarrage. Les entrées dynamiques ne le seront pas.*
 
