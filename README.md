@@ -27,8 +27,8 @@
 *Ces entrées MAC statiques sont conservées lors d'un redémarrage du commutateur.*
 
 # Vieillissement MAC (MAC aging)
-* Vous pouvez configurer la durée pendant laquelle une entrée (l'adresse MAC source du paquet et le port entrant par le paquet) reste dans la table MAC. <br>
-* Vous pouvez également configurer le temps de vieillissement MAC en mode de configuration d'interface ou en mode de configuration VLAN.
+* Vous pouvez configurer la durée pendant laquelle une entrée (l'adresse MAC source du paquet et le port entrant par le paquet) reste dans la table MAC.
+* Vous pouvez également configurer le temps de vieillissement MAC en mode de configuration d'interface ou en mode de configuration VLAN. <br>
 `switch(config)# mac-address-table aging-time <seconds>`
 * Le temps de vieillissement MAC spécifie le temps avant qu'une entrée expire et soit supprimée de la table d'adresses MAC.
 * La plage est de 0 à 1000000 ; la valeur par défaut est de 300 secondes.
