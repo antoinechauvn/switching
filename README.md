@@ -58,7 +58,7 @@
 * Si l'adresse est connue, la trame est transmise uniquement sur ce port
 * Si l'adresse MAC de la couche 2 est inconnue, la trame est inondée vers tous les ports sauf celui d'où elle provient
 
-# Tableau des adresses MAC
+# Table d'adresses MAC (CAM table)
 <img src="https://user-images.githubusercontent.com/83721477/164194822-ce5078d2-79e2-4d06-aeb6-26448e1eaaf9.png" width="50%" height="50%">
 
 * Une table d'adresses MAC est composée des colonnes suivantes :
@@ -66,5 +66,5 @@
   * Adresse Mac
   * Type (dynamique ou statique)
   * Ports
-* Les entrées statiques persisteront lors d'un redémarrage. Les entrées dynamiques ne le seront pas.
+*Note: Les entrées statiques persisteront lors d'un redémarrage. Les entrées dynamiques ne le seront pas.*
 
