@@ -1,4 +1,9 @@
 # switching
+![switching](https://user-images.githubusercontent.com/83721477/164189484-72234b9b-2cd7-40c9-b2cb-7d0f2511d2f9.png)
+![switching2](https://user-images.githubusercontent.com/83721477/164190049-b0a01be5-93fa-4980-b86f-30011ac5bf4a.png)
+![switching3](https://user-images.githubusercontent.com/83721477/164190360-4c78bb0d-c3d3-4b89-a0b4-55a8b31e98a6.png)
+![switching4](https://user-images.githubusercontent.com/83721477/164190865-5fc2d08a-4160-46a1-990d-08abf805caef.png)
+![switching5](https://user-images.githubusercontent.com/83721477/164191030-f96191e8-d04c-4004-9f38-9c16d5593dd9.png)
 
 ### Apprentissage MAC (Mac learning)
 * Pour commuter efficacement les trames entre les ports LAN, le commutateur gère une table d'adresses appelée table MAC.
