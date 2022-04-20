@@ -36,22 +36,29 @@
 
 # Commutation de trame (Frame switching)
 * Les commutateurs LAN sont caractérisés par la méthode de transfert qu'ils prennent en charge, telle qu'un commutateur a store-and-forward, un cut-through ou un commutateur fragment-free.
+
 ## Commutation store-and-forward
-## Commutation cut-through
-## Commutation fragment-free
 * Les commutateurs de store-and-forward stockent la totalité de la trame dans la mémoire interne et vérifient la présence d'erreurs dans la trame avant de la transmettre à sa destination.
 * Le fonctionnement du commutateur store-and-forward garantit un niveau élevé de trafic réseau sans erreur, car les trames de données erronées sont rejetées plutôt que transmises sur le réseau
+
+## Commutation cut-through
 * Avec la commutation cut-through, le commutateur LAN copie dans sa mémoire uniquement l'adresse MAC de destination, qui se trouve dans les 6 premiers octets de la trame suivant le préambule.
 * Le commutateur recherche l'adresse MAC de destination dans sa table de commutation, détermine le port d'interface sortant et transmet la trame à sa destination via le port de commutateur désigné.
 * Un commutateur cut-through réduit le délai car le commutateur commence à transmettre la trame dès qu'il lit l'adresse MAC de destination et détermine le port de commutateur sortant
+
+## Commutation fragment-free
 * La commutation fragment-free fonctionne comme la commutation directe à l'exception qu'un commutateur en mode sans fragment stocke les 64 premiers octets de la trame avant le transfert.
 * La commutation fragment-free peut être considérée comme un compromis entre la commutation store-and-forward et la commutation cut-through.
 * La raison pour laquelle la commutation sans fragment ne stocke que les 64 premiers octets de la trame est que la plupart des erreurs de réseau et des collisions se produisent pendant les 64 premiers octets d'une trame
-### Inondation de trame (Frame flooding)
+
+
+
+# Inondation de trame (Frame flooding)
 * Les commutateurs déterminent sur quel port une trame doit être envoyée pour atteindre sa destination
 * Si l'adresse est connue, la trame est transmise uniquement sur ce port
 * Si l'adresse MAC de la couche 2 est inconnue, la trame est inondée vers tous les ports sauf celui d'où elle provient
-### Tableau des adresses MAC
+
+# Tableau des adresses MAC
 * Une table d'adresses MAC est composée des colonnes suivantes :
   * VLAN
   * Adresse Mac
