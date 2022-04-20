@@ -5,14 +5,15 @@
 ![switching](https://user-images.githubusercontent.com/83721477/164189484-72234b9b-2cd7-40c9-b2cb-7d0f2511d2f9.png)
 
 ## ETAPE 1
-![switching2](https://user-images.githubusercontent.com/83721477/164190049-b0a01be5-93fa-4980-b86f-30011ac5bf4a.png)
+![switching2](https://user-images.githubusercontent.com/83721477/164204037-64b7f85f-6b4f-41f8-91ef-458238b28170.png)
+
 * Pour commuter efficacement les trames entre les ports LAN, le commutateur gère une table d'adresses appelée table MAC.
 * Lorsque le commutateur reçoit une trame, il associe l'adresse MAC (Media Access Control) du périphérique réseau émetteur au port LAN sur lequel elle a été reçue.
 * L'apprentissage des adresses MAC est activé sur tous les VLAN par défaut
 * Le commutateur construit dynamiquement la table d'adresses en utilisant l'adresse source MAC des trames reçues.
 
 ## ETAPE 2
-![switching3](https://user-images.githubusercontent.com/83721477/164190360-4c78bb0d-c3d3-4b89-a0b4-55a8b31e98a6.png)
+![switching3](https://user-images.githubusercontent.com/83721477/164203930-4e80adbb-a6c5-4c54-bc88-0c51c26bdced.png)
 * Lorsque le commutateur reçoit une trame pour une adresse de destination MAC non répertoriée dans sa table d'adresses, il diffuse la trame vers tous les ports LAN du même VLAN, à l'exception du port qui a reçu la trame.
 
 ## ETAPE 3
